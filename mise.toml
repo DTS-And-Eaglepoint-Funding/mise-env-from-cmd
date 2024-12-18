@@ -1,0 +1,3 @@
+[env]
+_.mise-env-from-cmd.TESTA = "echo foo-bar | base64"
+_.mise-env-from-cmd.BRAVO = "echo bar-foo | base64"

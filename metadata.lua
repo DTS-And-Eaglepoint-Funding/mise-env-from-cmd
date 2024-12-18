@@ -3,15 +3,15 @@ PLUGIN = {}
 
 --- !!! MUST BE SET !!!
 --- Plugin name
-PLUGIN.name = "mise-env-sample"
+PLUGIN.name = "mise-env-from-cmd"
 --- Plugin version
 PLUGIN.version = "0.0.1"
 --- Plugin homepage
-PLUGIN.homepage = "https://github.com/jdx/mise-env-sample"
+PLUGIN.homepage = "https://github.com/michaelPotter/mise-env-from-cmd"
 --- Plugin license, please choose a correct license according to your needs.
 PLUGIN.license = "MIT"
 --- Plugin description
-PLUGIN.description = "Sample plugin for mise env modules"
+PLUGIN.description = "Plugin for setting env-vars from shell commands"
 
 
 --- !!! OPTIONAL !!!
@@ -33,6 +33,6 @@ NOTE:
     you can set this address to the manifest file address, so that the plugin can be updated automatically.
 
  --]]
-PLUGIN.manifestUrl = "https://github.com/jdx/mise-env-sample/releases/download/manifest/manifest.json"
+PLUGIN.manifestUrl = "https://github.com/michaelPotter/mise-env-from-cmd/download/manifest/manifest.json"
 -- Some things that need user to be attention!
 PLUGIN.notes = {}
