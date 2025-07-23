@@ -5,6 +5,9 @@ local function run_cmd(cmd)
     local data = handle:read("*a")
     suc, exitcode, code = handle:close()
 
+    
+    -- Trim trailing whitespace (newlines, spaces, tabs)
+    data = data:gsub("%s+$", "")
     return data
 end
 
