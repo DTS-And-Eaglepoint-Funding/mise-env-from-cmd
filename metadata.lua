@@ -7,7 +7,7 @@ PLUGIN.name = "mise-env-from-cmd"
 --- Plugin version
 PLUGIN.version = "0.0.1"
 --- Plugin homepage
-PLUGIN.homepage = "https://github.com/michaelPotter/mise-env-from-cmd"
+PLUGIN.homepage = "https://github.com/DTS-And-Eaglepoint-Funding/mise-env-from-cmd"
 --- Plugin license, please choose a correct license according to your needs.
 PLUGIN.license = "MIT"
 --- Plugin description
@@ -33,6 +33,6 @@ NOTE:
     you can set this address to the manifest file address, so that the plugin can be updated automatically.
 
  --]]
-PLUGIN.manifestUrl = "https://github.com/michaelPotter/mise-env-from-cmd/download/manifest/manifest.json"
+PLUGIN.manifestUrl = "https://github.com/DTS-And-Eaglepoint-Funding/mise-env-from-cmd/download/manifest/manifest.json"
 -- Some things that need user to be attention!
 PLUGIN.notes = {}
